@@ -1,1 +1,23 @@
-/* Пиши стили тут */
+body {
+    background: #f9f9f9;
+    display: flex;
+    height: 100vh;
+}
+
+.rating {
+    direction: rtl;
+    unicode-bidi: bidi-override;
+}
+
+.rating input {
+    display: none;
+}
+
+.rating label {
+    font-size: 50px;
+    color: white;
+    -webkit-text-stroke: 1px black;
+    cursor: pointer;
+}
+
+
