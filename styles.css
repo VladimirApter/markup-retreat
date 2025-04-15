@@ -20,4 +20,13 @@ body {
     cursor: pointer;
 }
 
+.rating input:checked ~ label {
+    color: yellow;
+}
+
+.rating label:hover,
+.rating label:hover ~ label {
+    color: yellow;
+}
+
 
